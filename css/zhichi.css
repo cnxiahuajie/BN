@@ -1,0 +1,291 @@
+
+body {
+    background-color: #002A54;
+    background-image: url("/img/zhichi/default-background.e2a244b6.jpg");
+    background-repeat: no-repeat;
+}
+
+#zhichi-caidan {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#zhichi-caidan div {
+    padding: 0 40px;
+}
+
+#zhichi-caidan div p:nth-child(1) {
+    margin-left: 0;
+}
+
+#zhichi-caidan div p {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: color 0.2s linear;
+}
+
+#zhichi-caidan div p:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#zhichi-caidan div:nth-child(1), #zhichi-caidan div:nth-child(2) {
+    display: flex;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    align-items: center;
+}
+
+#zhongjian {
+    display: flex;
+    padding: 20px 40px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+#zhongjian .line-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#zhongjian .line-1 .rongqi {
+    display: flex;
+    margin-top: 2px;
+}
+
+#zhongjian .line-1 .rongqi .item {
+    display: flex;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 15px 40px 15px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+#zhongjian .line-1 .rongqi .item:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#zhongjian .line-1 .rongqi .item p:nth-child(1) {
+    font-weight: bold;
+}
+
+#zhongjian .line-1 .rongqi .item p:nth-child(2) {
+    margin-left: 10px;
+}
+
+#zhongjian .line-1 .rongqi .item p:nth-child(3) {
+    margin-left: auto;
+}
+
+#zhongjian .line-1 .rongqi .left-border {
+    width: 4px;
+    background-color: #d56900;
+}
+
+#zhongjian .line-2 {
+
+}
+
+#zhongjian h2 {
+    color: #fff;
+    padding: 20px 0;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+}
+
+#zhongjian .line-2 div input {
+    outline: none;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 30%);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 400px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#zhongjian .line-3 {
+    display: flex;
+}
+
+#zhongjian .line-3 .left, #zhongjian .line-3 .right {
+    display: flex;
+    flex: 1;
+    width: 50%;
+    flex-direction: column;
+}
+
+#zhongjian .line-3 .shang {
+    display: flex;
+    flex-direction: column;
+}
+
+#zhongjian .line-3 .zhanghao-yy-sc {
+    display: flex;
+}
+
+#zhongjian .line-3 .zhanghao-yy-sc .item:nth-child(1) {
+    margin-left: 0;
+}
+
+#zhongjian .line-3 .zhanghao-yy-sc .item {
+    color: #00aeff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border: 1px solid #00aeff;
+    margin: 10px;
+    max-width: 148px;
+    height: 148px;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+#zhongjian .line-3 .zhanghao-yy-sc .item:hover {
+    background-color: rgba(50, 50, 50, 0.4);
+}
+
+#zhongjian .line-3 .xia {
+    display: flex;
+    flex-direction: column;
+}
+
+#zhongjian .line-3 .xia .games {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#zhongjian .line-3 .xia .games div {
+    width: 148px;
+    height: 148px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(4) {
+    margin-right: 0;
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(1) {
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(1), #zhongjian .line-3 .xia .games div:nth-child(2), #zhongjian .line-3 .xia .games div:nth-child(3), #zhongjian .line-3 .xia .games div:nth-child(4), #zhongjian .line-3 .xia .games div:nth-child(5), #zhongjian .line-3 .xia .games div:nth-child(6), #zhongjian .line-3 .xia .games div:nth-child(7) {
+    width: 148px;
+    height: 148px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 30%);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    transition: opacity 0.2s linear;
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(1) {
+    background-image: url("/img/zhichi/tile_wow_cn.b562dbc0.jpg");
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(2) {
+    background-image: url("/img/zhichi/tile_overwatch_cn.76741b2a.jpg");
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(3) {
+    background-image: url("/img/zhichi/tile_hearthstone_cn.3aba1b35.jpg");
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(4) {
+    background-image: url("/img/zhichi/tile_diablo3_cn.52e4185f.jpg");
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(5) {
+    background-image: url("/img/zhichi/tile_heroes_cn.7dd1e94e.jpg");
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(6) {
+    background-image: url("/img/zhichi/tile_starcraft2_cn.9c2ec40e.jpg");
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(7) {
+    background-image: url("/img/zhichi/tile_starcraft.2e1c2d36.jpg");
+}
+
+#zhongjian .line-3 .xia .games div:nth-child(1):hover, #zhongjian .line-3 .xia .games div:nth-child(2):hover, #zhongjian .line-3 .xia .games div:nth-child(3):hover, #zhongjian .line-3 .xia .games div:nth-child(4):hover, #zhongjian .line-3 .xia .games div:nth-child(5):hover, #zhongjian .line-3 .xia .games div:nth-child(6):hover, #zhongjian .line-3 .xia .games div:nth-child(7):hover {
+    opacity: 0.7;
+}
+
+#zhongjian .line-3 .right {
+    align-items: center;
+    margin-top: 40px;
+}
+
+#zhongjian .line-3 .right .rongqi {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #fff;
+    width: 70%;
+    height: 500px;
+}
+
+#zhongjian .line-3 .right .rongqi .item div {
+    cursor: pointer;
+}
+
+#zhongjian .line-3 .right .rongqi .item:nth-child(1) {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#zhongjian .line-3 .right .rongqi .item:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+#zhongjian .line-3 .right .rongqi .item:nth-child(2) div:nth-child(1) {
+    margin-top: 50px;
+}
+
+#zhongjian .line-3 .right .rongqi .item:nth-child(2) div:nth-child(2) {
+    background-color: #0e86ca;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 30%);
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    margin-top: 50px;
+}
+
+#zhongjian .line-3 .right .rongqi .item:nth-child(2) div:nth-child(2):hover {
+    background-color: #00aeff;
+}
+
+#zhongjian .line-3 .right .rongqi .item:nth-child(2) div:nth-child(3) {
+    color: #00aeff;
+    margin-top: 50px;
+}
+
+#zhongjian .line-3 .right .rongqi .item:nth-child(2) div:nth-child(4) {
+    width: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 20px;
+}
+
+#zhongjian .line-3 .right .rongqi .item:nth-child(2) div:nth-child(5) {
+    color: #00aeff;
+    margin-top: 20px;
+}

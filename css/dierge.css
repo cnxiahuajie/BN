@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("/img/dierge/bg-top.jpg");
+}
+.xiaorongqi{
+	margin: 0 auto;
+	width: 800px;
+	padding-top: 40px;
+}
+.logo{
+	width: 250px;
+	height:150px;
+    margin: 0 auto;
+
+}
+.text{
+	color: white;
+	font-size: 20px;
+	padding-top: 40px;
+	text-align: center;
+}
+.text2{
+	margin-top: 30px;
+}
+p{
+	text-align: center;
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+}
+.san{
+	display: inline-block;
+	margin-left: 100px;
+}
+a{
+	text-decoration: none;
+	color: dodgerblue;
+	font-size: 23px;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: underline;
+}
+#guojia{
+	width:550px ;
+	height: 60px;
+	margin-top: 30px;
+	margin-left: 120px;
+	font-size: 20px;
+	padding-left: 20px;
+	background-color: black;
+	border-radius: 5px;
+	color: grey;
+}
+#shenfenzheng{
+	width:530px ;
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 120px;
+	font-size: 20px;
+	padding-left: 20px;
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+}
+#jixu1{
+	width:552px ;
+	height: 60px;
+	margin-top: 50px;
+	margin-left: 120px;
+	font-size: 25px;
+	font-weight: bold;
+	padding-left: 20px;
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 5px;
+}
+.xiantiao{
+	position: relative;
+}
+.xt1{
+	margin-top: 50px;
+	margin-left: 120px;
+	width:550px;
+}
+.kuang{
+	background-color:black;
+	width: 170px;
+	height: 50px;
+	position: absolute;
+	left: 320px;
+	top: -20px;
+	color: gray;
+	line-height: 50px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.logo2{
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#wangyi{
+	margin-top: 10px;
+}
+.si{
+	display: inline-block;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+.logo3{
+	width: 400px;
+	height:300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}

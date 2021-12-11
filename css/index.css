@@ -1,0 +1,168 @@
+
+#xuanchuan {
+    height: 459px;
+    background-image: url("/img/index/bg-top.jpg");
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+#xuanchuan .tupian {
+}
+
+#xuanchuan .denglu_zhuce_xiazai {
+    display: flex;
+    justify-content: space-between;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(1) {
+    font-size: 28px;
+    color: #a2b9c2;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(1) span:nth-child(2) {
+    border: 1px solid rgba(162, 185, 194, 0.5);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 4px;
+    cursor: pointer;
+    color: rgba(162, 185, 194, 0.5);
+    transition: color 0.3s linear, border 0.3s linear;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(1) span:nth-child(2) a {
+    color: rgba(162, 185, 194, 0.5);
+    transition: color 0.3s linear, border 0.3s linear;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(1) span:nth-child(2) a:hover {
+    color: rgba(162, 185, 194, 1);
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(1) span:nth-child(2):hover {
+    border: 1px solid rgba(162, 185, 194, 1);
+    color: rgba(162, 185, 194, 1);
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(2) {
+    color: #fff;
+    margin-top: 40px;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(2) span {
+    cursor: pointer;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(2) span:nth-child(1) {
+    background-color: rgba(0, 129, 180, 0.8);
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: background-color 0.2s linear;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(2) span:nth-child(1):hover {
+    background-color: rgba(0, 129, 180, 1);
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(2) span:nth-child(2) {
+    margin-left: 10px;
+    color: #00b6ff;
+    font-size: 14px;
+    transition: color 0.2s linear;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(2) span:nth-child(2):hover {
+    color: #fff;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .xiazai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .xiazai .download-app {
+    background-image: url("/img/index/app-screen-small.png");
+    width: 256px;
+    height: 176px;
+    opacity: 70%;
+    transition: opacity 0.2s linear;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .xiazai .download-app:hover {
+    opacity: 100%;
+}
+
+#xuanchuan .denglu_zhuce_xiazai .xiazai p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+#games {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #D3D1CE;
+    border-bottom: 4px solid #777674;
+    padding-bottom: 60px;
+}
+
+#games .game {
+    border: 1px solid #3E414A;
+    background-repeat: no-repeat;
+    width: 162px;
+    height: 392px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -70px;
+    cursor: pointer;
+}
+
+#games .game:nth-child(1) {
+    background-image: url("/img/index/wow-cn.png");
+}
+
+#games .game:nth-child(2) {
+    background-image: url("/img/index/diablo3-cn.png");
+}
+
+#games .game:nth-child(3) {
+    background-image: url("/img/index/starcraft2-cn.png");
+}
+
+#games .game:nth-child(4) {
+    background-image: url("/img/index/starcraft-cn.jpg");
+}
+
+#games .game:nth-child(5) {
+    background-image: url("/img/index/heroes-cn.png");
+}
+
+#games .game:nth-child(6) {
+    background-image: url("/img/index/hearthstone-cn.png");
+}
+
+#games .game:nth-child(7) {
+    background-image: url("/img/index/overwatch-cn.png");
+}
+
+#games .game p {
+    color: #B2BAC7;
+    margin-top: 12px;
+    transition: color 0.2s linear;
+}
+
+#games .game p:hover {
+    color: white;
+}

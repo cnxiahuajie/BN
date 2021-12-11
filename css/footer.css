@@ -1,0 +1,69 @@
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    background-color: #040404;
+    align-items: center;
+}
+
+#copyright .line-2 {
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    margin: 20px 0;
+}
+
+#copyright .pre-line::before {
+    content: "|";
+    padding: 1em;
+    color: #3E414A;
+}
+
+#copyright .line-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3E414A;
+    font-size: 14px;
+}
+
+#copyright .line-3 .yinsi-falv-tiaokuan {
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#copyright .line-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3E414A;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 1.5em;
+}
+
+#copyright .line-4 .words {
+    display: flex;
+    font-size: 12px;
+}
+
+#copyright .line-4 .words:nth-child(3) {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+}
+
+#copyright .line-5 {
+    display: flex;
+}
+
+#copyright .line-5 .tupian {
+    margin: 10px 5px;
+}
+
+#copyright .line-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3E414A;
+    font-size: 12px;
+    margin: 5px 0 50px 0;
+}

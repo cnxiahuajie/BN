@@ -1,0 +1,219 @@
+
+body {
+    background-image: url("/img/index/bg-top.jpg");
+    background-repeat: no-repeat;
+    background-color: #020202;
+}
+
+#gengduo .item:nth-child(1) {
+    margin: 20px 200px;
+}
+
+#gengduo .item:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+#gengduo .item:nth-child(2) .content {
+    display: flex;
+    color: #91bfe5;
+    width: 860px;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/img/liaojie-gengduo/bg-intro.png");
+}
+
+#gengduo .item:nth-child(2) .content h2 {
+    font-size: 36px;
+    line-height: 2em;
+}
+
+#gengduo .item:nth-child(2) .content p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+#gengduo .item:nth-child(3) {
+    display: flex;
+    justify-content: center;
+}
+
+#gengduo .item:nth-child(3) .content {
+    display: flex;
+    color: #a2b0c2;
+    width: 990px;
+    flex-direction: column;
+    background-image: url("/img/liaojie-gengduo/bg-one-place.png");
+}
+
+#gengduo .item:nth-child(3) .content div {
+    flex: 1;
+}
+
+#gengduo .item:nth-child(3) .content div:nth-child(1) {
+    width: 40%;
+    padding: 60px 0;
+}
+
+#gengduo .item:nth-child(3) .content div:nth-child(1) p:nth-child(1) {
+    color: #ccc;
+    line-height: 2em;
+    font-size: 22px;
+}
+
+#gengduo .item:nth-child(3) .content div:nth-child(1) p:nth-child(2) {
+    line-height: 1.5em;
+}
+
+#gengduo .item:nth-child(4) {
+    display: flex;
+    justify-content: center;
+}
+
+#gengduo .item:nth-child(4) .content {
+    display: flex;
+    width: 990px;
+}
+
+#gengduo .item:nth-child(4) .content div {
+    flex: 1;
+    width: 50%;
+}
+
+#gengduo .item:nth-child(4) .content div:nth-child(1) {
+    background-image: url("/img/liaojie-gengduo/APM7SO8MUD2I1638555750045.png");
+    height: 352px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#gengduo .item:nth-child(4) .content div:nth-child(2) {
+    width: 40%;
+    padding: 60px 0;
+}
+
+#gengduo .item:nth-child(4) .content div:nth-child(2) p:nth-child(1) {
+    color: #ccc;
+    line-height: 2em;
+    font-size: 22px;
+}
+
+#gengduo .item:nth-child(4) .content div:nth-child(2) p:nth-child(2) {
+    line-height: 1.5em;
+    color: #a2b0c2;
+}
+
+#gengduo .item:nth-child(5) {
+    display: flex;
+    justify-content: center;
+}
+
+#gengduo .item:nth-child(5) .content {
+    display: flex;
+    width: 990px;
+}
+
+#gengduo .item:nth-child(5) .content div {
+    flex: 1;
+    width: 50%;
+}
+
+#gengduo .item:nth-child(5) .content div:nth-child(2) {
+    background-image: url("/img/liaojie-gengduo/bg-community.jpg");
+    height: 352px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#gengduo .item:nth-child(5) .content div:nth-child(1) {
+    width: 40%;
+    padding: 50px 0;
+}
+
+#gengduo .item:nth-child(5) .content div:nth-child(1) p:nth-child(1) {
+    color: #ccc;
+    line-height: 2em;
+    font-size: 22px;
+}
+
+#gengduo .item:nth-child(5) .content div:nth-child(1) p:nth-child(2) {
+    line-height: 1.5em;
+    color: #a2b0c2;
+}
+
+#gengduo .item:nth-child(6) {
+    display: flex;
+    justify-content: center;
+}
+
+#gengduo .item:nth-child(6) .content {
+    display: flex;
+    width: 990px;
+}
+
+#gengduo .item:nth-child(6) .content div {
+    flex: 1;
+    width: 50%;
+}
+
+#gengduo .item:nth-child(6) .content div:nth-child(1) {
+    background-image: url("/img/liaojie-gengduo/bg-social.jpg");
+    height: 352px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#gengduo .item:nth-child(6) .content div:nth-child(2) {
+    width: 40%;
+    padding: 60px 0;
+}
+
+#gengduo .item:nth-child(6) .content div:nth-child(2) p:nth-child(1) {
+    color: #ccc;
+    line-height: 2em;
+    font-size: 22px;
+}
+
+#gengduo .item:nth-child(6) .content div:nth-child(2) p:nth-child(2) {
+    line-height: 1.5em;
+    color: #a2b0c2;
+}
+
+#gengduo .item:nth-child(7) {
+    display: flex;
+    justify-content: center;
+}
+
+#gengduo .item:nth-child(7) .content {
+    display: flex;
+    width: 990px;
+}
+
+#gengduo .item:nth-child(7) .content div {
+    flex: 1;
+    width: 50%;
+}
+
+#gengduo .item:nth-child(7) .content div:nth-child(2) {
+    background-image: url("/img/liaojie-gengduo/battletag-connect.jpg");
+    height: 352px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#gengduo .item:nth-child(7) .content div:nth-child(1) {
+    width: 40%;
+    padding: 50px 0;
+}
+
+#gengduo .item:nth-child(7) .content div:nth-child(1) p:nth-child(1) {
+    color: #ccc;
+    line-height: 2em;
+    font-size: 22px;
+}
+
+#gengduo .item:nth-child(7) .content div:nth-child(1) p:nth-child(2) {
+    line-height: 1.5em;
+    color: #a2b0c2;
+}
