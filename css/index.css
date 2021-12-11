@@ -1,7 +1,7 @@
 
 #xuanchuan {
     height: 459px;
-    background-image: url("/img/index/bg-top.jpg");
+    background-image: url("../img/index/bg-top.jpg");
     padding: 60px;
     box-sizing: border-box;
 }
@@ -55,6 +55,10 @@
     margin-top: 40px;
 }
 
+#xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(2) a {
+    color: #fff;
+}
+
 #xuanchuan .denglu_zhuce_xiazai .denglu-zhuce p:nth-child(2) span {
     cursor: pointer;
 }
@@ -90,7 +94,7 @@
 }
 
 #xuanchuan .denglu_zhuce_xiazai .xiazai .download-app {
-    background-image: url("/img/index/app-screen-small.png");
+    background-image: url("../img/index/app-screen-small.png");
     width: 256px;
     height: 176px;
     opacity: 70%;
@@ -130,31 +134,31 @@
 }
 
 #games .game:nth-child(1) {
-    background-image: url("/img/index/wow-cn.png");
+    background-image: url("../img/index/wow-cn.png");
 }
 
 #games .game:nth-child(2) {
-    background-image: url("/img/index/diablo3-cn.png");
+    background-image: url("../img/index/diablo3-cn.png");
 }
 
 #games .game:nth-child(3) {
-    background-image: url("/img/index/starcraft2-cn.png");
+    background-image: url("../img/index/starcraft2-cn.png");
 }
 
 #games .game:nth-child(4) {
-    background-image: url("/img/index/starcraft-cn.jpg");
+    background-image: url("../img/index/starcraft-cn.jpg");
 }
 
 #games .game:nth-child(5) {
-    background-image: url("/img/index/heroes-cn.png");
+    background-image: url("../img/index/heroes-cn.png");
 }
 
 #games .game:nth-child(6) {
-    background-image: url("/img/index/hearthstone-cn.png");
+    background-image: url("../img/index/hearthstone-cn.png");
 }
 
 #games .game:nth-child(7) {
-    background-image: url("/img/index/overwatch-cn.png");
+    background-image: url("../img/index/overwatch-cn.png");
 }
 
 #games .game p {

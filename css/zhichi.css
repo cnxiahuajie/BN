@@ -1,7 +1,7 @@
 
 body {
     background-color: #002A54;
-    background-image: url("/img/zhichi/default-background.e2a244b6.jpg");
+    background-image: url("../img/zhichi/default-background.e2a244b6.jpg");
     background-repeat: no-repeat;
 }
 
@@ -190,31 +190,31 @@ body {
 }
 
 #zhongjian .line-3 .xia .games div:nth-child(1) {
-    background-image: url("/img/zhichi/tile_wow_cn.b562dbc0.jpg");
+    background-image: url("../img/zhichi/tile_wow_cn.b562dbc0.jpg");
 }
 
 #zhongjian .line-3 .xia .games div:nth-child(2) {
-    background-image: url("/img/zhichi/tile_overwatch_cn.76741b2a.jpg");
+    background-image: url("../img/zhichi/tile_overwatch_cn.76741b2a.jpg");
 }
 
 #zhongjian .line-3 .xia .games div:nth-child(3) {
-    background-image: url("/img/zhichi/tile_hearthstone_cn.3aba1b35.jpg");
+    background-image: url("../img/zhichi/tile_hearthstone_cn.3aba1b35.jpg");
 }
 
 #zhongjian .line-3 .xia .games div:nth-child(4) {
-    background-image: url("/img/zhichi/tile_diablo3_cn.52e4185f.jpg");
+    background-image: url("../img/zhichi/tile_diablo3_cn.52e4185f.jpg");
 }
 
 #zhongjian .line-3 .xia .games div:nth-child(5) {
-    background-image: url("/img/zhichi/tile_heroes_cn.7dd1e94e.jpg");
+    background-image: url("../img/zhichi/tile_heroes_cn.7dd1e94e.jpg");
 }
 
 #zhongjian .line-3 .xia .games div:nth-child(6) {
-    background-image: url("/img/zhichi/tile_starcraft2_cn.9c2ec40e.jpg");
+    background-image: url("../img/zhichi/tile_starcraft2_cn.9c2ec40e.jpg");
 }
 
 #zhongjian .line-3 .xia .games div:nth-child(7) {
-    background-image: url("/img/zhichi/tile_starcraft.2e1c2d36.jpg");
+    background-image: url("../img/zhichi/tile_starcraft.2e1c2d36.jpg");
 }
 
 #zhongjian .line-3 .xia .games div:nth-child(1):hover, #zhongjian .line-3 .xia .games div:nth-child(2):hover, #zhongjian .line-3 .xia .games div:nth-child(3):hover, #zhongjian .line-3 .xia .games div:nth-child(4):hover, #zhongjian .line-3 .xia .games div:nth-child(5):hover, #zhongjian .line-3 .xia .games div:nth-child(6):hover, #zhongjian .line-3 .xia .games div:nth-child(7):hover {

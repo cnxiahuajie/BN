@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	background-image: url("/img/dierge/bg-top.jpg");
+	background-image: url("../img/dierge/bg-top.jpg");
 }
 #xiaorongqi{
 	margin: 0 auto;
@@ -18,26 +18,70 @@ body{
 }
 #xiaorongqi .text{
 	color: white;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	padding-top: 40px;
 	text-align: center;
 }
 #xiaorongqi .text2{
 	margin-top: 30px;
+	text-align: center;
 }
+
+#xiaorongqi .text2 .liaojie-gengduo {
+	position: relative;
+}
+
+#xiaorongqi .text2 .liaojie-gengduo .liaojie-gengduo-neirong {
+	display: none;
+	color: rgba(255,255,255,.84);
+	text-decoration: none;
+	position: absolute;
+	top: -110px;
+	background-color: #22242c;
+	border: 1px solid rgba(255,255,255,.12);
+	font-size: 14px;
+	font-weight: 100;
+	padding: 20px;
+	width: 420px;
+	right: 0;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#xiaorongqi .text2 .liaojie-gengduo .sanjiaoxing {
+	position: absolute;
+	left: 0;
+	top: -15px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #22242c;
+	display: none;
+
+}
+
+#xiaorongqi .text2 .liaojie-gengduo .liaojie-gengduo-neirong p {
+	/*font-size: 14px;*/
+}
+
+#xiaorongqi .text2 .liaojie-gengduo:hover .liaojie-gengduo-neirong, #xiaorongqi .text2 .liaojie-gengduo:hover .sanjiaoxing {
+	display: block;
+}
+
 #xiaorongqi p{
 	text-align: center;
 	color: white;
-	font-size: 20px;
+	/*font-size: 20px;*/
 }
 #xiaorongqi .san{
 	display: inline-block;
-	margin-left: 129px;
+	/*margin-left: 129px;*/
 }
 #xiaorongqi a{
 	text-decoration: none;
 	color: dodgerblue;
-	font-size: 23px;
+	/*font-size: 23px;*/
 	font-weight: bold;
 }
 #xiaorongqi a:hover{
@@ -45,36 +89,56 @@ body{
 }
 #guojia{
 	width:473px ;
-	height: 51px;
 	margin-top: 30px;
 	margin-left: 156px;
-	font-size: 20px;
-	padding-left: 20px;
+	/*font-size: 20px;*/
+	padding: 10px;
 	background-color: black;
 	border-radius: 5px;
 	color: grey;
+	border: 1px solid gray;
+	transition: border 0.2s linear;
+}
+
+#guojia:hover{
+	border: 1px solid #fff;
 }
 #shenfenzheng{
+	outline: none;
 	width:450px ;
-	height: 40px;
 	margin-top: 20px;
 	margin-left: 154px;
-	font-size: 20px;
-	padding-left: 20px;
+	/*font-size: 20px;*/
+	padding: 10px;
 	background-color: black;
 	border-radius: 5px;
 	color: white;
+	border: 1px solid gray;
+	transition: border 0.2s linear;
 }
+
+#shenfenzheng:hover {
+	border: 1px solid #fff;
+}
+
 #jixu1{
+	outline: none;
 	width:474px ;
-	height: 50px;
 	margin-top: 46px;
 	margin-left: 157px;
-	font-size: 25px;
+	/*font-size: 25px;*/
 	font-weight: bold;
 	background-color: dodgerblue;
 	color: white;
 	border-radius: 5px;
+	border: 2px solid dodgerblue;
+	cursor: pointer;
+	transition: border 0.2s linear;
+	padding: 10px;
+}
+
+#jixu1:hover{
+	border: 2px solid rgba(255,255,255,0.7);
 }
 #xiaorongqi .xiantiao{
 	position: relative;
@@ -95,7 +159,7 @@ body{
 	line-height: 50px;
 	padding-left: 10px;
 	font-weight: bold;
-	font-size: 20px;
+	/*font-size: 20px;*/
 }
 #xiaorongqi .logo2{
 	width: 50px;
@@ -115,7 +179,5 @@ body{
 }
 #xiaorongqi .logo3{
 	width: 340px;
-	height:300px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto;
 }

@@ -4,12 +4,13 @@
 	
 }
 body{
-	background-image: url("/img/denglu/bg-top.jpg");
+	background-image: url("../img/denglu/bg-top.jpg");
 }
 #xiaorongqi{
 	margin: 0 auto;
 	width: 800px;
 	padding-top: 100px;
+	padding-bottom: 100px;
 	
 }
 #xiaorongqi .logo{
@@ -20,37 +21,59 @@ body{
 
 }
 #zhanghao{
+	outline: none;
+	border: 2px solid gray;
 	width:408px ;
-	height: 42px;
 	margin-top: 25px;
 	margin-left: 188px;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	padding-left: 20px;
 	background-color: black;
 	border-radius: 5px;
 	color: white;
+	transition: border 0.2s linear;
+	padding: 10px;
+}
+
+#zhanghao:hover{
+	border: 2px solid rgba(255,255,255,0.7);
 }
 #mima{
+	outline: none;
+	border: 2px solid gray;
 	width:408px ;
-	height: 42px;
 	margin-top: 20px;
 	margin-left: 188px;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	padding-left: 20px;
 	background-color: black;
 	border-radius: 5px;
 	color: white;
+	transition: border 0.2s linear;
+	padding: 10px;
+}
+#mima:hover{
+	border: 2px solid rgba(255,255,255,0.7);
 }
 #denglu{
+	outline: none;
+	border: 2px solid dodgerblue;
 	width:433px ;
-	height: 39px;
 	margin-top: 50px;
 	margin-left: 188px;
-	font-size: 20px;
+	/*font-size: 20px;*/
 	background-color: dodgerblue;
 	color: white;
 	border-radius: 5px;
+	transition: border 0.2s linear;
+	cursor: pointer;
+	padding: 10px;
 }
+
+#denglu:hover{
+	border: 2px solid rgba(255,255,255,0.7);
+}
+
 #xiaorongqi .xiantiao{
 	position: relative;
 }
@@ -85,7 +108,7 @@ body{
 #xiaorongqi a{
 	text-decoration: none;
 	color: dodgerblue;
-	font-size: 18px;
+	/*font-size: 18px;*/
 	font-weight: bold;
 	
 }

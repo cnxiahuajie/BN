@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("/img/index/bg-top.jpg");
+    background-image: url("../img/index/bg-top.jpg");
     background-repeat: no-repeat;
     background-color: #020202;
 }
@@ -20,7 +20,7 @@ body {
     width: 860px;
     flex-direction: column;
     align-items: center;
-    background-image: url("/img/liaojie-gengduo/bg-intro.png");
+    background-image: url("../img/liaojie-gengduo/bg-intro.png");
 }
 
 #gengduo .item:nth-child(2) .content h2 {
@@ -44,7 +44,7 @@ body {
     color: #a2b0c2;
     width: 990px;
     flex-direction: column;
-    background-image: url("/img/liaojie-gengduo/bg-one-place.png");
+    background-image: url("../img/liaojie-gengduo/bg-one-place.png");
 }
 
 #gengduo .item:nth-child(3) .content div {
@@ -82,7 +82,7 @@ body {
 }
 
 #gengduo .item:nth-child(4) .content div:nth-child(1) {
-    background-image: url("/img/liaojie-gengduo/APM7SO8MUD2I1638555750045.png");
+    background-image: url("../img/liaojie-gengduo/APM7SO8MUD2I1638555750045.png");
     height: 352px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -120,7 +120,7 @@ body {
 }
 
 #gengduo .item:nth-child(5) .content div:nth-child(2) {
-    background-image: url("/img/liaojie-gengduo/bg-community.jpg");
+    background-image: url("../img/liaojie-gengduo/bg-community.jpg");
     height: 352px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -158,7 +158,7 @@ body {
 }
 
 #gengduo .item:nth-child(6) .content div:nth-child(1) {
-    background-image: url("/img/liaojie-gengduo/bg-social.jpg");
+    background-image: url("../img/liaojie-gengduo/bg-social.jpg");
     height: 352px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -196,7 +196,7 @@ body {
 }
 
 #gengduo .item:nth-child(7) .content div:nth-child(2) {
-    background-image: url("/img/liaojie-gengduo/battletag-connect.jpg");
+    background-image: url("../img/liaojie-gengduo/battletag-connect.jpg");
     height: 352px;
     background-repeat: no-repeat;
     background-size: contain;
