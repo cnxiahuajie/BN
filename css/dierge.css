@@ -5,50 +5,49 @@
 body{
 	background-image: url("/img/dierge/bg-top.jpg");
 }
-.xiaorongqi{
+#xiaorongqi{
 	margin: 0 auto;
 	width: 800px;
 	padding-top: 40px;
 }
-.logo{
+#xiaorongqi .logo{
 	width: 250px;
 	height:150px;
     margin: 0 auto;
 
 }
-.text{
+#xiaorongqi .text{
 	color: white;
 	font-size: 20px;
 	padding-top: 40px;
 	text-align: center;
 }
-.text2{
+#xiaorongqi .text2{
 	margin-top: 30px;
 }
-p{
+#xiaorongqi p{
 	text-align: center;
 	color: white;
-	font-size: 23px;
-	font-weight: bold;
+	font-size: 20px;
 }
-.san{
+#xiaorongqi .san{
 	display: inline-block;
-	margin-left: 100px;
+	margin-left: 129px;
 }
-a{
+#xiaorongqi a{
 	text-decoration: none;
 	color: dodgerblue;
 	font-size: 23px;
 	font-weight: bold;
 }
-a:hover{
+#xiaorongqi a:hover{
 	text-decoration: underline;
 }
 #guojia{
-	width:550px ;
-	height: 60px;
+	width:473px ;
+	height: 51px;
 	margin-top: 30px;
-	margin-left: 120px;
+	margin-left: 156px;
 	font-size: 20px;
 	padding-left: 20px;
 	background-color: black;
@@ -56,10 +55,10 @@ a:hover{
 	color: grey;
 }
 #shenfenzheng{
-	width:530px ;
-	height: 60px;
+	width:450px ;
+	height: 40px;
 	margin-top: 20px;
-	margin-left: 120px;
+	margin-left: 154px;
 	font-size: 20px;
 	padding-left: 20px;
 	background-color: black;
@@ -67,31 +66,30 @@ a:hover{
 	color: white;
 }
 #jixu1{
-	width:552px ;
-	height: 60px;
-	margin-top: 50px;
-	margin-left: 120px;
+	width:474px ;
+	height: 50px;
+	margin-top: 46px;
+	margin-left: 157px;
 	font-size: 25px;
 	font-weight: bold;
-	padding-left: 20px;
 	background-color: dodgerblue;
 	color: white;
 	border-radius: 5px;
 }
-.xiantiao{
+#xiaorongqi .xiantiao{
 	position: relative;
 }
-.xt1{
+#xiaorongqi .xt1{
 	margin-top: 50px;
 	margin-left: 120px;
 	width:550px;
 }
-.kuang{
+#xiaorongqi .kuang{
 	background-color:black;
 	width: 170px;
 	height: 50px;
 	position: absolute;
-	left: 320px;
+	left: 312px;
 	top: -20px;
 	color: gray;
 	line-height: 50px;
@@ -99,7 +97,7 @@ a:hover{
 	font-weight: bold;
 	font-size: 20px;
 }
-.logo2{
+#xiaorongqi .logo2{
 	width: 50px;
 	height: 50px;
 	background-color: white;
@@ -108,15 +106,15 @@ a:hover{
 	margin-top: 50px;
 }
 #wangyi{
-	margin-top: 10px;
+	margin-top: 13px;
 }
-.si{
+#xiaorongqi .si{
 	display: inline-block;
 	margin-left: 300px;
 	margin-top: 20px;
 }
-.logo3{
-	width: 400px;
+#xiaorongqi .logo3{
+	width: 340px;
 	height:300px;
     margin: 0 auto;
     margin-top: 50px;

@@ -1,105 +1,105 @@
-*{margin: 0;
-padding: 0;
+*{
+	margin: 0;
+	padding: 0;
 }
 body{
 	background-image: url("/img/disige/default-background.e2a244b6.jpg");
 }
-.erto{
+#darongqi .erto{
 	background-color: rgba(0,42,84,0.4);
-	width: 2048px;
+	
 	height: 60px;
 }
-a:hover{
+#darongqi a:hover{
 	color: white;
 }
-a{
+#darongqi a{
 	color: grey;
 	text-decoration: none;
 }
-.zuoyi{
+#darongqi .zuoyi{
 	margin-left: 60px;
 	width: 200px;
 	height: 70px;
 	float: left;
 
 }
-.tupian{
+#darongqi .tupian{
 	cursor: pointer;
 	float: left;
 	margin-left: 10px;
 }
-.wenzi{
+#darongqi .wenzi{
 	float: left;
 }
-.clearfix::after{
+#darongqi .clearfix::after{
      content:".";
      display:block;
      height:0;
      clear:both;
      visibility:hidden;
 }
-.tupian img {
+#darongqi .tupian img {
 	width: 25px;
 	height: 25px;
 	margin-top: 20px;
 }
-.text{
+#darongqi .text{
 	font-size: 20px;
 	float: left;
 	margin-top: 20px;
 	margin-left: 10px;
 }
-.you{
+#darongqi .you{
 	float: right;
 	margin-right: 50px;
 	width: 600px;
 	height: 60px;
 	
 }
-.santo{
+#darongqi .santo{
 	margin: 0 auto;
-	width: 2000px;
 	margin-top: 50px;
 }
-.list1{
-	width: 1900px;
+#darongqi .list1{
+	width: 1300px;
 	margin: 0 auto;
 	height: 70px;
 	background-color: white;
 	border-left: 8px solid orange;
 	margin-top: 5px;
 }
-.list1:hover{
-	width: 1900px;
+#darongqi .list1:hover{
+	width: 1300px;
 	margin: 0 auto;
 	height: 70px;
 	background-color:powderblue;
 	margin-top: 5px;
 	cursor: pointer;
 }
-.logo1{
+#darongqi .logo1{
 	float: left;
 	margin-left: 10px;
 }
-.logo1 img {
+#darongqi .logo1 img {
 	width: 55px;
 	height: 50px;
 	margin-top: 8px;
 }
-.text1{
+#darongqi .text1{
 	font-size: 20px;
 	float: left;
 	margin-top: 20px;
 	margin-left: 10px;
 	font-weight: bold;
 }
-.text2{
+#darongqi .text2{
 	font-size: 20px;
 	float: left;
 	margin-top: 20px;
 	margin-left: 10px;
 }
-.cha{
+#darongqi .cha{
 	width: 30px;
 	height: 30px;
 	float: right;
@@ -107,26 +107,26 @@ a{
 	margin-right: 10px;
 	
 }
-.xia{
-	width: 1910px;
+#darongqi .xia{
 	margin: 0 auto;
 }
-.zuo{
+#darongqi .zuo{
 	margin-top: 50px;
-	width: 60%;
-	
+	width: 800px;
+	margin-left: 100px;
 	float: left;
 }
-.you1{
+#darongqi .you1{
 	margin-top: 50px;
-	width: 40%;
+	width: 600px;
 	float: right;
+	margin-right: 19px;
 }
-.text3{
+#darongqi .text3{
 	color: white;
 	font-size: 48px;
 }
-.text4{
+#darongqi .text4{
 	color: gray;
 	font-size: 20px;
 }
@@ -134,7 +134,7 @@ a{
 	width:400px ;
 	height: 50px;
 	margin-top: 50px;
-	margin-left: 440px;
+	margin-left: 255px;
 	font-size: 20px;
 	background-color: rgb(14,134,202);
 	color: white;
@@ -148,7 +148,7 @@ a{
 	width:400px ;
 	height: 50px;
 	margin-top: 20px;
-	margin-left: 440px;
+	margin-left: 253px;
 	font-size: 20px;
 	background-color: rgb(14,134,202);
 	color: white;
@@ -158,62 +158,66 @@ a{
 	background-color: deepskyblue;
 	cursor: pointer;
 }
-.xiantiao{
-	width: 1100px;
+#darongqi .xiantiao{
+	width: 764px;
 	font-weight: bold;
 	margin-top: 60px;
 }
-.text5{
+#darongqi .text5{
 	color: white;
 	font-size: 25px;
 	margin-top: 30px;
 }
-.text5 a{
+#darongqi .text5 a{
 	color: deepskyblue;
 }
-.kuang{
-	width: 620px;
+#darongqi .kuang{
+	width: 389px;
 	height: 50px;
 	margin-left: 71px;
 	background-color: rgb(0,23,46);
 	color: white;
-	padding-left: 70px;
+	padding-left: 50px;
 	font-size: 20px;
 	position: relative;
 }
-.sosuo{
+#darongqi .sosuo{
 	width: 40px;
 	height: 35px;
 	position: absolute;
-	left: 1293px;
-	top: 385px;
+	left: 976px;
+	top: 387px;
 }
-.text6{
+#darongqi .text6{
 	color: white;
 	font-size: 45px;
 	margin-left: 71px;
 	margin-top: 20px;
 }
-.yousan{
+#darongqi .yousan{
 	margin-left: 71px;
 	margin-top: 20px;
 }
-.yousan a{
+#darongqi .yousan a{
 	color: dodgerblue;
 	font-size: 30px;
 }
-.yousan p{
+#darongqi .yousan p{
 	color: white;font-size: 25px;
 }
-.yousan a:hover
+#darongqi .yousan a:hover
 {
 	color: deepskyblue;
 }
-.zuiho{
-	margin-top: 201px;
-	margin-left: -363px;
+#darongqi .zuiho{
+	margin-top: 212px;
+	margin-left: -311px;
 }
-.logo{
-	height: 134px;
-	width: 256px;
+#darongqi .logo{
+	height: 114px;
+	width: 217px;
+}
+
+#daohang .left .logo10 {
+	height: 50px;
 }

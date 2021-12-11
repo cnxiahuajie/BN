@@ -6,24 +6,24 @@
 body{
 	background-image: url("/img/denglu/bg-top.jpg");
 }
-.xiaorongqi{
+#xiaorongqi{
 	margin: 0 auto;
 	width: 800px;
 	padding-top: 100px;
 	
 }
-.logo{
-	width: 300px;
-	height:200px;
-	
+#xiaorongqi .logo{
+	width: 278px;
+	height:179px;
     margin: 0 auto;
+    margin-top: -30px;
 
 }
 #zhanghao{
-	width:500px ;
-	height: 50px;
-	margin-top: 50px;
-	margin-left: 150px;
+	width:408px ;
+	height: 42px;
+	margin-top: 25px;
+	margin-left: 188px;
 	font-size: 20px;
 	padding-left: 20px;
 	background-color: black;
@@ -31,10 +31,10 @@ body{
 	color: white;
 }
 #mima{
-	width:500px ;
-	height: 50px;
+	width:408px ;
+	height: 42px;
 	margin-top: 20px;
-	margin-left: 150px;
+	margin-left: 188px;
 	font-size: 20px;
 	padding-left: 20px;
 	background-color: black;
@@ -42,25 +42,24 @@ body{
 	color: white;
 }
 #denglu{
-	width:520px ;
-	height: 50px;
+	width:433px ;
+	height: 39px;
 	margin-top: 50px;
-	margin-left: 150px;
+	margin-left: 188px;
 	font-size: 20px;
-	padding-left: 20px;
 	background-color: dodgerblue;
 	color: white;
 	border-radius: 5px;
 }
-.xiantiao{
+#xiaorongqi .xiantiao{
 	position: relative;
 }
-.xt1{
+#xiaorongqi .xt1{
 	margin-top: 50px;
 	margin-left: 150px;
 	width:520px;
 }
-.kuang{
+#xiaorongqi .kuang{
 	background-color:black;
 	width: 170px;
 	height: 50px;
@@ -72,40 +71,40 @@ body{
 	padding-left: 20px;
 	font-weight: bold;
 }
-.logo2{
-	width: 50px;
-	height: 50px;
+#xiaorongqi .logo2{
+	width: 48px;
+	height: 46px;
 	background-color: white;
 	border-radius: 5px;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 62px;
 }
 #wangyi{
-	margin-top: 10px;
+	margin-top: 14px;
 }
-a{
+#xiaorongqi a{
 	text-decoration: none;
 	color: dodgerblue;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	
 }
-a:hover{
+#xiaorongqi a:hover{
 	text-decoration: underline;
 }
-.diyiju{
+#xiaorongqi .diyiju{
 	margin-top: 60px;
-	margin-left: 320px;
+	margin-left: 330px;
 }
-.dierju{
-	margin-top: 30px;
-	margin-left: 360px;
+#xiaorongqi .dierju{
+	margin-top: 26px;
+	margin-left: 361px;
 }
-.disanju{
-	margin-top: 30px;
-	margin-left: 332px;
+#xiaorongqi .disanju{
+	margin-top: 27px;
+	margin-left: 340px;
 }
-.banquan{
+#xiaorongqi .banquan{
 	background-color: pink;
 	width: 1200px;
 	height: 500px;

@@ -14,76 +14,76 @@ body{
      visibility:hidden;
 }
 
-.xiaorongqi{
+#xiaorongqi{
 	margin: 0 auto;
 	width: 1400px;
 	padding-top: 40px;
 	
 	}
-.logo{
+#xiaorongqi .logo{
 	width: 270px;
 	height:160px;
     margin: 0 auto;
 
 }
-.text{
+#xiaorongqi .text{
 	color: white;
-	font-size: 25px;
+	font-size: 23px;
 	padding-top: 50px;
 	text-align: center;
 }
-.text2{
+#xiaorongqi .text2{
 	margin-top: 30px;
 }
-p{
+#xiaorongqi p{
 	text-align: center;
 	color: white;
 	font-size: 23px;
 }
-.dafangkuang{
+#xiaorongqi .dafangkuang{
 	width: 1200px;
 	margin-left: 100px;
 }
-.fangkuan{
-	width: 250px;
-	height: 250px;
+#xiaorongqi .fangkuan{
+	width: 220px;
+	height: 210px;
 	background-color: rgb(41,43,51);
 	border-radius: 5px ;
 	cursor: pointer;
 	border: 2px solid rgb(41,43,51);
 	transition: border 0.2s linear;
-	margin-top: 80px;
-	margin-left: 40px;
+	margin-top: 30px;
+	margin-left: 62px;
 	float: left;
 }
-.fangkuan:hover{
+#xiaorongqi .fangkuan:hover{
 	border-color:rgb(200,200,200);
 	
 }
-.yaoshi{
-	widows: 150px;
+#xiaorongqi .yaoshi{
+	width: 150px;
 	height: 100px;
 	margin-left: 70px;
 	margin-top: 30px;
 	
 }
-.text3{
+#xiaorongqi .text3{
 	margin-top: 100px;
 	margin-left: 380px;
 }
-a{
+#xiaorongqi a{
 	text-decoration: none;
 	color: dodgerblue;
 	font-size: 20px;
 	
 	letter-spacing: 3px;
 }
-a:hover{
+#xiaorongqi a:hover{
 	text-decoration: underline;
 }
-.logo1{
+#xiaorongqi .logo1{
 	width: 300px;
 	height: 200px;
-	margin-top:250px;
+	margin-top:166px;
 	margin-left: 550px;
 }
