@@ -79,10 +79,16 @@ body {
 
 #zhongjian #line1 .item div {
     width: 313px;
+    overflow: hidden;
 }
 
 #zhongjian #line1 .item div:nth-child(1) img {
     width: 313px;
+    transition: all 0.2s ease 0s;
+}
+
+#zhongjian #line1 .item div:nth-child(1) img:hover {
+    transform: scale(1.1);
 }
 
 #zhongjian #line1 .item div:nth-child(2) {
